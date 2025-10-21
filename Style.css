@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    background: url('backgimage.png');
+    background-size: cover;
+    overflow: hidden;
+}
+
+
+.grid-container>div {
+    font-size: 40px;
+    /* outline: 3px solid rgb(10, 28, 226); */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+.menu-bar {
+    display: none !important;
+}
+
+.navbar {
+    grid-column: 1/11;
+    padding: 20px;
+    font-size: 80PX;
+
+
+
+    ul {
+        /* background-color: rgb(25, 0, 254);
+                border-radius: 40px;
+                padding: 20px; */
+        float: right;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        margin-top: 0vh;
+        font-size: 60px;
+
+    }
+
+    /* li:nth-child(1) {
+                position: absolute;
+                left: 0;
+            } */
+
+    li {
+        padding-inline: 20px;
+    }
+
+    a {
+
+        font-weight: bold;
+        font-size: 60px;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        margin-top: 1vh;
+    }
+
+
+
+    .logo {
+        position: absolute;
+        left: 50px;
+        font-size: 60px;
+    }
+
+    #menu {
+        display: none;
+    }
+}
+
+
+.image-section {
+    grid-column: 1/5;
+    text-align: center;
+
+
+    img {
+        width: 320px;
+        height: auto;
+        object-fit: cover;
+        border-radius: 50%;
+        position: auto;
+        margin-top: -15px;
+        margin-left: -200px;
+    }
+}
+
+.text-section {
+    grid-column: 5/11;
+    display: grid;
+    place-content: center;
+    top: 50vh;
+    margin-left: -620px;
+
+    ul {
+        display: flex;
+        list-style: none;
+        flex-direction: column;
+        margin-top: 10vh;
+        font-weight: bold;
+
+    }
+
+    li:nth-child(1) {
+
+        font-size: 70px;
+        margin-top: -5vh;
+    }
+
+    li:nth-child(2) {
+        font-size: 70px;
+    }
+
+    li:nth-child(3) {
+        font-size: 75px;
+        margin-left: -20px;
+        margin-bottom: 40px;
+    }
+
+    li:nth-child(4) {
+        font-size: 50px;
+        margin-left: 330px;
+    }
+
+    li:nth-child(5) {
+        font-size: 50px;
+        margin-left: 330px;
+    }
+
+    li:nth-child(6) {
+        font-size: 50px;
+        margin-left: 330px;
+
+    }
+}
+
+.footer {
+    grid-column: 1/11;
+    height: 10vh;
+}
+
+
+
+
+
+
+
+
+
+
