@@ -241,7 +241,53 @@
     }
 }
 
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
+  .menu-bar {
+    display: block; 
+  }
+
+  .nav-links {
+    display: none; 
+    flex-direction: column;
+    position: absolute;
+    top: 100px;
+    left: -20px;
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .nav-links.show {
+    display: flex; 
+  }
+
+  .nav-links li a {
+    font-size: 35px;
+  }
+
+ 
+  .image-section {
+    grid-column: 1 / 11;
+    text-align: center;
+    margin: 0;
+  }
+
+  .image-section img {
+    margin-left: -150px;
+  }
+
+  .text-section {
+    grid-column: 1 / 11;
+    margin: 0;
+    text-align: center;
+  }
+
+  .text-section li {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 800px) {
 
 
     .navbar {
@@ -249,6 +295,17 @@
        
 
         ul li a {   
+
+        padding-top: 20px;
+        padding-right: 20px;
+        margin-left: -30px;
+        font-size: 20px;
+        }
+
+        #logo {
+           
+            font-size: 30px;  
+
         padding-top: 10px;
         font-size: 28px;
         }
@@ -256,6 +313,7 @@
         #logo {
             padding-top: 0px;
             font-size: 28px;  
+
             
         }
     }
@@ -318,6 +376,8 @@
                 margin-left: -200px;
             }
         
+
+
     }
 }
 
@@ -416,11 +476,9 @@
         }
 
         #logo {
-            
-            font-size: 20px;
-            
-            
-        }
+
+            font-size: 20px;    
+        
     }
 
     .image-section {
@@ -428,7 +486,7 @@
         
 
         img {
-            /* border-radius: 10px; */
+            
             width: 150px;
             height: auto;
             object-fit: cover;
@@ -484,6 +542,8 @@
     }
 }
 
+}
+
 @media screen and (max-width: 600px) {
 
 
@@ -500,7 +560,8 @@
 
         #logo {
             
-            font-size: 15px;
+
+            font-size: 20px;
             
             
         }
@@ -583,8 +644,7 @@
 
         #logo {
             
-            font-size:15px;
-            
+            font-size:20px;
             
         }
     }
@@ -742,7 +802,8 @@
         }
 
         #logo {
-            font-size: 5px;  
+
+            font-size: 15px;  
         }
     }
 
@@ -764,7 +825,6 @@
 
     .text-section {
         grid-column: 1/11;
-       
        margin-left: 100px;
 
         li:nth-child(1) {
