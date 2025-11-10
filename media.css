@@ -295,7 +295,7 @@
        
 
         ul li a {   
-<<<<<<< HEAD
+
         padding-top: 20px;
         padding-right: 20px;
         margin-left: -30px;
@@ -305,7 +305,7 @@
         #logo {
            
             font-size: 30px;  
-=======
+
         padding-top: 10px;
         font-size: 28px;
         }
@@ -313,7 +313,7 @@
         #logo {
             padding-top: 0px;
             font-size: 28px;  
->>>>>>> c3bac4985efae858ce61975c54569810160430e8
+
             
         }
     }
@@ -376,8 +376,8 @@
                 margin-left: -200px;
             }
         
-<<<<<<< HEAD
-=======
+
+
     }
 }
 
@@ -460,7 +460,6 @@
                 margin-left: -200px;
             }
         
->>>>>>> c3bac4985efae858ce61975c54569810160430e8
     }
 }
 
@@ -477,15 +476,9 @@
         }
 
         #logo {
-            
-<<<<<<< HEAD
-            font-size: 30px;
-=======
-            font-size: 20px;
->>>>>>> c3bac4985efae858ce61975c54569810160430e8
-            
-            
-        }
+
+            font-size: 20px;    
+        
     }
 
     .image-section {
@@ -493,7 +486,7 @@
         
 
         img {
-            /* border-radius: 10px; */
+            
             width: 150px;
             height: auto;
             object-fit: cover;
@@ -549,6 +542,8 @@
     }
 }
 
+}
+
 @media screen and (max-width: 600px) {
 
 
@@ -565,11 +560,8 @@
 
         #logo {
             
-<<<<<<< HEAD
+
             font-size: 20px;
-=======
-            font-size: 15px;
->>>>>>> c3bac4985efae858ce61975c54569810160430e8
             
             
         }
@@ -652,12 +644,7 @@
 
         #logo {
             
-<<<<<<< HEAD
             font-size:20px;
-=======
-            font-size:15px;
->>>>>>> c3bac4985efae858ce61975c54569810160430e8
-            
             
         }
     }
@@ -736,11 +723,7 @@
         }
 
         #logo {
-<<<<<<< HEAD
-            font-size: 20px;  
-=======
             font-size: 10px;  
->>>>>>> c3bac4985efae858ce61975c54569810160430e8
         }
     }
 
@@ -819,11 +802,8 @@
         }
 
         #logo {
-<<<<<<< HEAD
+
             font-size: 15px;  
-=======
-            font-size: 5px;  
->>>>>>> c3bac4985efae858ce61975c54569810160430e8
         }
     }
 
@@ -839,22 +819,13 @@
             border-radius: 50%;
             position: auto;
             text-align: center;
-<<<<<<< HEAD
-            margin-left: -5px;
-=======
             margin-left: -70px;
->>>>>>> c3bac4985efae858ce61975c54569810160430e8
         }
     }
 
     .text-section {
         grid-column: 1/11;
-       
-<<<<<<< HEAD
-       margin-left: 150px;
-=======
        margin-left: 100px;
->>>>>>> c3bac4985efae858ce61975c54569810160430e8
 
         li:nth-child(1) {
             font-size: 10px;
