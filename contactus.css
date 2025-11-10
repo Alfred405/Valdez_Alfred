@@ -6,7 +6,21 @@ body {
   background: url('backgimage.png');
   background-size: cover;
   overflow: hidden;
-  background-size: 100% 100%;
+}
+
+
+body{
+  background: linear-gradient(-45deg, #d13355, #50f21f, #d223d5, #0911ed);
+  background-size: 400% 400%;
+  animation: gradient 5s ease infinite;
+  height: 100vh;
+  color: white;
+}
+
+@keyframes gradient {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 
@@ -99,15 +113,18 @@ body {
 .text-section li:nth-child(1) {
   font-size: 70px;
   margin-top: -5vh;
+  text-align: center;
 }
 
 .text-section li:nth-child(2) {
   font-size: 70px;
+  text-align: center;
 }
 
 .text-section li:nth-child(3) {
   font-size: 75px;
   margin-bottom: 40px;
+  text-align: center;
 }
 
 .text-section li:nth-child(4),
