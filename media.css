@@ -287,99 +287,6 @@
   }
 }
 
-@media screen and (max-width: 800px) {
-
-
-    .navbar {
-        
-       
-
-        ul li a {   
-
-        padding-top: 20px;
-        padding-right: 20px;
-        margin-left: -30px;
-        font-size: 20px;
-        }
-
-        #logo {
-           
-            font-size: 30px;  
-
-        padding-top: 10px;
-        font-size: 28px;
-        }
-
-        #logo {
-            padding-top: 0px;
-            font-size: 28px;  
-
-            
-        }
-    }
-
-    .image-section {
-        grid-column: 1/11;
-        
-
-        img {
-            /* border-radius: 10px; */
-            width: 190px;
-            height: auto;
-            object-fit: cover;
-            border-radius: 50%;
-            position: auto;
-            text-align: center;
-            margin-left: -70px;
-        }
-    }
-
-    .text-section {
-        grid-column: 1/11;
-       
-       margin-left: 100px;
-
-        li:nth-child(1) {
-            font-size: 35px;
-            margin-top: -10vh;
-            text-align: center;
-            margin-left: -200px;
-        }
-
-        li:nth-child(2) {
-            font-size: 35px;
-            text-align: center;
-            margin-left: -200px;
-        }
-
-        li:nth-child(3) {
-            font-size: 40px;
-            text-align: center;
-            margin-left: -200px;
-        }
-
-        li:nth-child(4) {
-            font-size: 25PX;
-            text-align: center;
-            margin-left: -200px;
-        }
-
-        li:nth-child(5) {
-            font-size: 25PX;
-           text-align: center;
-           margin-left: -200px;
-
-        }
-         li:nth-child(6) {
-                font-size: 25PX;
-                text-align: center;
-                margin-left: -200px;
-            }
-        
-
-
-    }
-}
 
 @media screen and (max-width: 800px) {
 
@@ -723,7 +630,7 @@
         }
 
         #logo {
-            font-size: 10px;  
+            font-size: 20px;  
         }
     }
 
@@ -803,7 +710,7 @@
 
         #logo {
 
-            font-size: 15px;  
+            font-size: 20px;  
         }
     }
 
